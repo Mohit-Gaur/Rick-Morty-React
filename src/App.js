@@ -45,7 +45,7 @@ export default function App() {
       <Route exact path="/">
         <Header getEpisodeName={getEpisodeName} isSearching={isSearching} />
         <div className="d-flex justify-content-center align-items-center">
-          <h1 style={{ fontSize: "5vw" }}>The Rick And Morty</h1>
+          <h1 style={{ fontSize: "5vw" }}>Rick And Morty</h1>
         </div>
         {loading && <Loading />}
         <div
